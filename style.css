@@ -1,0 +1,111 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+
+body
+{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #191726;
+}
+
+
+img 
+{
+    width: 15rem;
+}
+
+h1 
+{
+    
+    color: white;
+    font-size: 3rem;
+}
+
+#conteudo
+{
+    text-align: center;
+    height: 1.6rem;
+    font-size: 1rem;
+}
+
+.btd-enviar
+{
+    padding: 2px;
+    font-weight: bolder;
+    font-size: 1rem;
+}
+
+.Tarefas 
+{  
+    color: white;
+    font-weight: bolder;
+    font-size: 1.5rem;
+    list-style: none;
+}
+
+.ListaConteudo
+ {
+    margin-top: 20px;
+    overflow-y: auto; 
+    max-height: 20vh; 
+    width: 100%;
+}
+
+.ListaConteudo::-webkit-scrollbar 
+{
+    display: none; 
+}
+
+
+.botao
+{
+
+  border: 0;
+  padding: 2px;
+  font-weight: bolder;
+  border-radius: 5px;
+}
+
+.dad
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+    text-align: center;
+}
+
+.son 
+{
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 50px;
+    border-radius: 5%;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+     max-height: 30vh;
+}
+
+
+/*Alteração para dispositivos pequenos (mobile)*/
+
+@media (max-width: 900px) 
+{
+    .imagem
+    {
+        display: none;
+    }
+
+    .ListaConteudo
+    {
+       margin-top: 20px;
+      
+       max-height: 10vh; 
+       width: 100%;
+   }
+ 
+}
